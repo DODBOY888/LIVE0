@@ -28,7 +28,6 @@ jobs:
       run: |
         curl -o iptv.m3u https://raw.githubusercontent.com/Mursor1985/LIVE/refs/heads/main/iptv.m3u
   
-
     - name: Check for changes and commit
       run: |
         git add IPTV.m3u
